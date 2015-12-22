@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="DailySQLScripts">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items />
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="DatabaseFileSizesDetail_WithShrink.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>DatabaseFileSizesDetail_WithShrink.sql</FullPath>
+        </FileNode>
+        <FileNode Name="DatabaseInfoFileSizes.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>DatabaseInfoFileSizes.sql</FullPath>
+        </FileNode>
+        <FileNode Name="DatabaseInfoMirrorDetails.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>DatabaseInfoMirrorDetails.sql</FullPath>
+        </FileNode>
+        <FileNode Name="DatabaseInfoMirroredReplicatedDatabases.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>DatabaseInfoMirroredReplicatedDatabases.sql</FullPath>
+        </FileNode>
+        <FileNode Name="DatabaseInfoQuickServerStatus.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>DatabaseInfoQuickServerStatus.sql</FullPath>
+        </FileNode>
+        <FileNode Name="DatabaseInfoReplicatedObjects.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>DatabaseInfoReplicatedObjects.sql</FullPath>
+        </FileNode>
+        <FileNode Name="DatabaseInfoStoredProcedureUsage.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>DatabaseInfoStoredProcedureUsage.sql</FullPath>
+        </FileNode>
+        <FileNode Name="DatabaseInfoTableIndexUsageAndStorage.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>DatabaseInfoTableIndexUsageAndStorage.sql</FullPath>
+        </FileNode>
+        <FileNode Name="DatabaseInfoUpTime.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>DatabaseInfoUpTime.sql</FullPath>
+        </FileNode>
+        <FileNode Name="ErrorLogQueries.SQL">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>ErrorLogQueries.SQL</FullPath>
+        </FileNode>
+        <FileNode Name="GetBackupSizes_Native.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>GetBackupSizes_Native.sql</FullPath>
+        </FileNode>
+        <FileNode Name="JobInfoDuration.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>JobInfoDuration.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>
