@@ -2,13 +2,26 @@
 <SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="DailySQLScripts">
   <Items>
     <LogicalFolder Name="Connections" Type="2" Sorted="true">
-      <Items />
+      <Items>
+        <ConnectionNode Name="(local):DFA_PRIMARY\rrodarte">
+          <Created>2015-12-28T14:20:23.9007501-06:00</Created>
+          <Type>SQL</Type>
+          <Server>(local)</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
     </LogicalFolder>
     <LogicalFolder Name="Queries" Type="0" Sorted="true">
       <Items>
         <FileNode Name="DatabaseFileSizesDetail_WithShrink.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local):True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>DatabaseFileSizesDetail_WithShrink.sql</FullPath>
         </FileNode>
@@ -37,8 +50,8 @@
           <FullPath>DatabaseInfoQuickServerStatus.sql</FullPath>
         </FileNode>
         <FileNode Name="DatabaseInfoReplicatedObjects.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local):True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>DatabaseInfoReplicatedObjects.sql</FullPath>
         </FileNode>
@@ -77,6 +90,12 @@
           <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>JobInfoDuration.sql</FullPath>
+        </FileNode>
+        <FileNode Name="DatabaseInfoCommandProgress.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local):True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>DatabaseInfoCommandProgress.sql</FullPath>
         </FileNode>
       </Items>
     </LogicalFolder>
