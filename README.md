@@ -7,10 +7,11 @@ This is a collection of scripts that I have created, collected, and modified alo
 ## Database mirroring and replication information
 ## Database up time information
 ## Database table usage and space information
+## Database Plan Cache queries
 ## SQL Error and SQL Agent Log queries
 ## Back up information for Native and Litespeed
 ## SQL Job Information
-## Stored Procedure usage informatino
+## Stored Procedure usage information
 
 
 For any scripts found online, I provide a link back to the original author’s site.
