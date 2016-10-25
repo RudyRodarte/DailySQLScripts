@@ -66,12 +66,14 @@ select  ServerName
       , PollDate
 from    @DBInfo
 --where   LogicalFileName like '%temp%'	--	Uncomment for TempDB files
---where PhysicalFileName like 'L:%'		--	Uncomment for Log files
+where PhysicalFileName like 'L:%'		--	Uncomment for Log files
 --where PhysicalFileName like 'R:%'		--	Uncomment for data files
-where databasename = 'Admin'		--	Uncomment for a specific database
+--where databasename = 'Admin'		--	Uncomment for a specific database
 order by DatabaseName desc
 
-/********************************************/
+/*******************************************
+
+--	427,955
 
 use tempdb
 go
@@ -98,3 +100,27 @@ dbcc shrinkfile ('tempdev7')
 raiserror('File 07 Done',10,1) with nowait
 dbcc shrinkfile ('tempdev8')
 raiserror('File 08 Done',10,1) with nowait
+
+-- Shrink the log file as needed
+-- TRUNCATEONLY will free up anythign at the end of the file
+-- without re-arranging anything inside of the file
+dbcc shrinkfile ('tempdev',TRUNCATEONLY)
+raiserror('File 00 Done',10,1) with nowait
+dbcc shrinkfile ('tempdev2',TRUNCATEONLY)
+raiserror('File 02 Done',10,1) with nowait
+dbcc shrinkfile ('tempdev3',TRUNCATEONLY)
+raiserror('File 03 Done',10,1) with nowait
+dbcc shrinkfile ('tempdev4',TRUNCATEONLY)
+raiserror('File 04 Done',10,1) with nowait
+dbcc shrinkfile ('tempdev5',TRUNCATEONLY)
+raiserror('File 05 Done',10,1) with nowait
+dbcc shrinkfile ('tempdev6',TRUNCATEONLY)
+raiserror('File 06 Done',10,1) with nowait
+dbcc shrinkfile ('tempdev7',TRUNCATEONLY)
+raiserror('File 07 Done',10,1) with nowait
+dbcc shrinkfile ('tempdev8',TRUNCATEONLY)
+raiserror('File 08 Done',10,1) with nowait
+
+sp_whoisactive
+
+*/

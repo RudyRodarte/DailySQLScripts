@@ -49,3 +49,16 @@ select serverproperty('computernamephysicalnetbios') as [currentnodename]
 --	what nodes are on this cluster? 
 select	* 
 from	sys.dm_os_cluster_nodes 
+
+-- SQL Server Services information (SQL Server 2014) (Query 8) (SQL Server Services Info) 
+select  servicename
+      , process_id
+      , startup_type_desc
+      , status_desc
+      , last_startup_time
+      , service_account
+      , is_clustered
+      , cluster_nodename
+      , [filename]
+from    sys.dm_server_services with ( nolock )
+option  ( recompile );
