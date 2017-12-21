@@ -3,22 +3,10 @@
   <Items>
     <LogicalFolder Name="Connections" Type="2" Sorted="true">
       <Items>
-        <ConnectionNode Name="(local):DFA_PRIMARY\rrodarte">
+        <ConnectionNode Name="(local):SQL2016\SQL_2016">
           <Created>2015-12-28T14:20:23.9007501-06:00</Created>
           <Type>SQL</Type>
           <Server>(local)</Server>
-          <UserName />
-          <Authentication>Windows Authentication</Authentication>
-          <InitialDB />
-          <LoginTimeout>15</LoginTimeout>
-          <ExecutionTimeout>0</ExecutionTimeout>
-          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
-          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
-        </ConnectionNode>
-        <ConnectionNode Name="ASTDC-VSQL133P:DFA_PRIMARY\rrodarte">
-          <Created>2016-04-13T16:10:13.7785279-05:00</Created>
-          <Type>SQL</Type>
-          <Server>ASTDC-VSQL133P</Server>
           <UserName />
           <Authentication>Windows Authentication</Authentication>
           <InitialDB />
@@ -32,14 +20,14 @@
     <LogicalFolder Name="Queries" Type="0" Sorted="true">
       <Items>
         <FileNode Name="DatabaseFileSizesDetail_WithShrink.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ASTDC-VSQL133P:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>ASTDC-VSQL133P</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local):True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>DatabaseFileSizesDetail_WithShrink.sql</FullPath>
         </FileNode>
         <FileNode Name="DatabaseInfoFileSizes.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ASTDC-VSQL133P:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>ASTDC-VSQL133P</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>DatabaseInfoFileSizes.sql</FullPath>
         </FileNode>

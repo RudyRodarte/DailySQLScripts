@@ -66,9 +66,9 @@ select  ServerName
       , PollDate
 from    @DBInfo
 --where   LogicalFileName like '%temp%'	--	Uncomment for TempDB files
-where PhysicalFileName like 'L:%'		--	Uncomment for Log files
---where PhysicalFileName like 'R:%'		--	Uncomment for data files
---where databasename = 'Admin'		--	Uncomment for a specific database
+--where PhysicalFileName like 'L:%'		--	Uncomment for Log files
+--where PhysicalFileName like 'M:%'		--	Uncomment for data files
+where databasename = 'AdventureWorks2014'		--	Uncomment for a specific database
 order by DatabaseName desc
 
 /*******************************************

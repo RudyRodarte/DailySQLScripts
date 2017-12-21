@@ -1,8 +1,5 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
-# SQL Server Management Studio Solution File, Format Version 13.00
-VisualStudioVersion = 14.0.25420.1
-MinimumVisualStudioVersion = 10.0.40219.1
+Microsoft Visual Studio Solution File, Format Version 9.00
 Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "DailySQLScripts", "DailySQLScripts.ssmssqlproj", "{ED9FFE1F-30F6-4C39-AA86-289D2E2B44B1}"
 EndProject
 Global
@@ -11,6 +8,7 @@ Global
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{ED9FFE1F-30F6-4C39-AA86-289D2E2B44B1}.Default|Default.ActiveCfg = Default
+		{00000000-0000-0000-0000-000000000000}.Default|Default.ActiveCfg = Default
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
